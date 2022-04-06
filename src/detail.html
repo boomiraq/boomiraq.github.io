@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    
+    <title> Tailwind </title>
+    <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400&display=swap');
+
+
+        *{
+            font-family: 'Tajawal', sans-serif;
+            font-weight: 300;
+            scrollbar-width: thin;
+            color:rgb(250 204 21) gainsboro !important;
+        }
+        .parent-font{
+            font-weight: 400;
+        }
+
+
+
+    </style>
+</head>
+<body dir="rtl" class="overflow-x-hidden overflow-y-auto bg-gray-50" style="min-height: 3000px;">
+
+    <nav class=" h-20 bg-gray-50  overflow-hidden  w-full md:items-center md:justify-between p-4 md:flex  xs:hidden ">
+
+        <a href="/src/index.html" class="w-fit"><img class="md:w-28 " src="../boom-master-logo-01.png" alt=""></a>
+
+
+        <ul class="w-2/3 relative">
+            <input type="text" placeholder="search for a product " class="bg-white text-gray-700 focus:outline-none focus:border-yellow-400 rounded-md p-3 w-full">
+        </ul>
+
+        <ul class="w-fit flex gap-2  items-center">
+            <a href="" class=" text-yellow-200 flex items-center gap-2 hover:text-yellow-400  transition-colors ">
+                <span class=" bg-gray-900 rounded-full text-white flex items-center justify-center h-8 w-8 " >5</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 2a4 4 0 00-4 4v1H5a1 1 0 00-.994.89l-1 9A1 1 0 004 18h12a1 1 0 00.994-1.11l-1-9A1 1 0 0015 7h-1V6a4 4 0 00-4-4zm2 5V6a2 2 0 10-4 0v1h4zm-6 3a1 1 0 112 0 1 1 0 01-2 0zm7-1a1 1 0 100 2 1 1 0 000-2z" clip-rule="evenodd" />
+                </svg>
+                
+            </a>
+            <img class="inline-block h-10 w-10 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+        </ul>
+
+
+    </nav>
+
+    <main class=" border-t xs:p-2 grid md:grid-cols-3 xs:grid-cols-1  m-auto md:p-5 bg-white rounded ">
+
+        <div class="  grid grid-cols-4 ">
+            <img src="../images/shirt (2).jpg" class="col-span-4" alt="">
+            <!-- images list -->
+            <img src="../images/shirt (1).jpg" class="w-28 h-28 object-cover mt-3" alt="">
+            <img src="../images/shirt (2).jpg" class="w-28 h-28 object-cover mt-3" alt="">
+            <img src="../images/shirt (3).jpg" class="w-28 h-28 object-cover mt-3" alt="">
+            <img src="../images/shirt (4).jpg" class="w-28 h-28 object-cover mt-3" alt="">
+        </div>
+
+        <div class="meta p-4">
+
+            
+            <div class="product-variation mt-4">
+                <div class="flex justify-between ">
+                    <h1 class="md:text-5xl  "> قميص زارا نسائي  </h1>
+                    <h1 class="text-5xl"> 150$ </h1>
+                </div>
+
+                <div class="flex mt-4 mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 " viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+
+                      <span class="text-yellow-500 ml-4 mr-4"> 150 مراجعة  </span>
+                </div>
+
+
+
+                <div class="mb-5 mt-5">
+                    <h1 class="text-xl mt-3 mb-3 text-gray-500"> الألوان </h1>
+
+                    <div class="flex mt-2 mb-2 w-full gap-3">
+                        <div class="w-8 h-8 bg-black outline outline-offset-2 outline-indigo-400 rounded-full"></div>
+                        <div class="w-8 h-8 bg-white outline outline-offset-1 outline-gray-300 rounded-full"></div>
+                        <div class="w-8 h-8 bg-indigo-400 outline outline-offset-1 outline-gray-300 rounded-full"></div>
+                    </div>
+
+                </div>
+
+                <div class="mb-5 mt-5">
+                    <h1 class="text-xl mt-3 mb-3 text-gray-500"> القياسات </h1>
+
+                    <div class="flex mt-2 mb-2 w-full overflow-x-auto overflow-y-visible p-3 h-full gap-2 text-xl text-gray-500">
+                            <div class="w-fit h-10 outline outline-offset-1 outline-blue-400  text-blue-500 flex items-center justify-center p-3 rounded"> XXL </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> XL </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> SM </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> 3XL </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> L </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> 4XL </div>
+                            <div class="w-fit h-10 border-2 flex items-center justify-center p-3 rounded"> M </div>
+
+                    </div>
+
+                </div>
+
+                <div class="grid md:grid-cols-4 xs:grid-cols-1 gap-2  items-center w-full">
+                    <button class="bg-blue-600 transition focus:bg-blue-700 focus:outline focus:outline-offset-1 focus:outline-blue-500 col-span-3 text-white p-3 w-full rounded">اضف الى السلة</button>
+                    <input type="number" title="عدد القطع " class="bg-gray-100 p-3 rounded" name="" id="">
+                </div>
+
+            </div>
+
+            <hr class="mt-3 text-gray-300 mb-3">
+
+            <p class="md:text-[16px] p-3    mt-3 text-gray-500 xs:text-[14px]" >
+                هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.
+            </p>
+
+
+
+        </div>
+
+    </main>
+
+
+
+</body>
+</html>
